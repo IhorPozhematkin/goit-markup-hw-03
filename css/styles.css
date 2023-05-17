@@ -2,6 +2,12 @@
   --background: #ffffff;
   --color: #434455;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -12,6 +18,23 @@ body {
   color: var(--color);
   background: var(--background);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
 .link {
   text-decoration: none;
 }
@@ -21,6 +44,18 @@ body {
 .text {
   color: var(--color);
 }
+.header {
+  width: 1440px;
+  height: 72px;
+  padding: 24px 141px;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container-header {
+  width: 1158px;
+  padding: 0 15px;
+}
+
 .link-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -45,6 +80,7 @@ body {
 .address {
   font-style: normal;
 }
+
 .list-address .link-address {
   color: #434455;
 }
@@ -54,6 +90,13 @@ body {
 }
 .sectionone-studio {
   background: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  padding: 0 141px;
+}
+.container-sectionone {
+  width: 1158px;
+  padding: 0 331px;
 }
 .titleone-studio {
   font-weight: 700;
@@ -62,8 +105,11 @@ body {
   text-align: center;
   color: #ffffff;
   letter-spacing: 0.02em;
+  width: 496px;
+  padding-top: 188px;
 }
 .button-studio {
+  margin-left: 164px;
   cursor: pointer;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -73,14 +119,25 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+  width: 169px;
+  height: 56px;
+  margin-top: 48px;
 }
 .button-studio:hover,
 .button-studio:focus {
   background: #404bbf;
+}
+.sectiontwo-studio {
+  width: 1440px;
+  padding: 0 141px;
+}
+.container-sectiontwo {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  width: 1158px;
+  padding: 0 15px;
 }
 .titletwo-hidden {
   visibility: hidden;
@@ -94,10 +151,26 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
+.sectionthree-studio {
+  width: 1440px;
+  height: 412px;
+  padding: 0 141px;
+  margin-bottom: 120px;
+}
+.container-sectionthree {
+  width: 1158px;
+  padding: 0 15px;
+}
 .sectionfour-studio {
   background: #f4f4fd;
+  width: 1440px;
+  height: 732px;
+  padding: 0 141px;
 }
-
+.container-sectionfour {
+  width: 1158px;
+  padding: 0 15px;
+}
 .titlethree-skills {
   font-weight: 500;
   font-size: 20px;
@@ -150,7 +223,18 @@ body {
 .footer {
   background: #2e2f42;
   color: #f4f4fd;
+  width: 1440px;
+  height: 312px;
+  padding: 100px 141px;
+}
+.container-footer {
+  width: 1158px;
+  padding: 0 15px;
 }
 .color-logo-footer {
   color: #f4f4fd;
+}
+.text-footer {
+  width: 264px;
+  margin-top: 16px;
 }
