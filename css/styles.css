@@ -1,0 +1,156 @@
+:root {
+  --background: #ffffff;
+  --color: #434455;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color);
+  background: var(--background);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.text {
+  color: var(--color);
+}
+.link-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.color-logo-header {
+  color: #2e2f42;
+}
+.list-menu .link-menu {
+  font-weight: 500;
+  color: #2e2f42;
+}
+.list-menu .link-menu:hover,
+.list-menu .link-menu:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
+.list-address .link-address {
+  color: #434455;
+}
+.list-address .link-address:hover,
+.list-address .link-address:focus {
+  color: #404bbf;
+}
+.sectionone-studio {
+  background: #2e2f42;
+}
+.titleone-studio {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+}
+.button-studio {
+  cursor: pointer;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.button-studio:hover,
+.button-studio:focus {
+  background: #404bbf;
+}
+.titletwo-hidden {
+  visibility: hidden;
+}
+.titletwo {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.sectionfour-studio {
+  background: #f4f4fd;
+}
+
+.titlethree-skills {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.titlethree-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.titleone-hidden {
+  visibility: hidden;
+}
+.button-portfolio {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background: #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: #ffffff;
+}
+.titletwo-activites {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.element-list-team {
+  background-color: #ffffff;
+}
+.footer {
+  background: #2e2f42;
+  color: #f4f4fd;
+}
+.color-logo-footer {
+  color: #f4f4fd;
+}
