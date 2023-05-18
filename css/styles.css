@@ -238,9 +238,9 @@ img {
   gap: 24px;
 }
 .element-list-team {
+  flex-basis: calc((100% - 72px) / 4);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  justify-content: space-between;
 }
 .name-job {
   padding: 32px 16px;
