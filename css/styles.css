@@ -82,11 +82,11 @@ img {
 .list-menu {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .list-menu .link-menu {
   font-weight: 500;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .list-menu .link-menu:hover,
 .list-menu .link-menu:focus {
@@ -212,9 +212,7 @@ img {
 .style-s4 {
   padding-left: 141px;
 }
-.h2-s4 {
-  padding-left: 141px;
-}
+
 .titletwo-sectionfour {
   margin-bottom: 72px;
   font-weight: 700;
@@ -224,6 +222,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-left: 141px;
 }
 .titlethree-skills {
   font-weight: 500;
@@ -241,6 +240,7 @@ img {
 .element-list-team {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  justify-content: space-between;
 }
 .name-job {
   padding: 32px 16px;
@@ -325,7 +325,6 @@ img {
   width: 1440px;
   height: 312px;
   padding: 100px 0;
-  padding-left: 141px;
 }
 
 .link-logo-footer {
@@ -339,10 +338,12 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+  padding-left: 141px;
 }
 .color-logo-footer {
   color: #f4f4fd;
 }
 .text-footer {
-  width: 264px;
+  width: 405px;
+  padding-left: 141px;
 }
