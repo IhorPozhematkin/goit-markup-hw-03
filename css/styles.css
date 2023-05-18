@@ -202,16 +202,16 @@ img {
   color: #2e2f42;
 }
 .sectionfour-studio {
+  display: inline-block;
   background: #f4f4fd;
   width: 1440px;
   height: 732px;
   padding: 120px 0;
   padding: 120px 0;
 }
-.style-s4 {
-  padding-left: 141px;
+.style4 {
+  margin-left: 141px;
 }
-
 .titletwo-sectionfour {
   margin-bottom: 72px;
   font-weight: 700;
@@ -221,7 +221,6 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-left: 141px;
 }
 .titlethree-skills {
   font-weight: 500;
