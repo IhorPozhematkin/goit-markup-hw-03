@@ -53,6 +53,10 @@ img {
   padding: 0 141px;
   border-bottom: 1px solid #e7e9fc;
 }
+.style-container {
+  display: flex;
+}
+
 .container {
   width: 1158px;
   padding: 0 15px;
@@ -70,10 +74,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .color-logo-header {
   color: #2e2f42;
-  margin-right: 76px;
 }
 .list-menu {
   display: flex;
@@ -95,6 +99,7 @@ img {
 .list-address {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
   margin-left: 328px;
 }
 .list-address .link-address {
@@ -108,9 +113,10 @@ img {
   background: #2e2f42;
   width: 1440px;
   height: 600px;
-  padding: 0 141px;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
+}
+.style-s1 {
+  padding-left: 457px;
 }
 .titleone-studio {
   display: block;
@@ -120,13 +126,11 @@ img {
   color: #ffffff;
   letter-spacing: 0.02em;
   max-width: 496px;
-  width: 496px;
   text-align: center;
-  margin-left: 316px;
 }
 .button-studio {
   border: none;
-  margin-left: 480px;
+  margin-left: 141px;
   cursor: pointer;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -203,6 +207,12 @@ img {
   width: 1440px;
   height: 732px;
   padding: 120px 0;
+  padding: 120px 0;
+}
+.style-s4 {
+  padding-left: 141px;
+}
+.h2-s4 {
   padding-left: 141px;
 }
 .titletwo-sectionfour {
@@ -317,6 +327,7 @@ img {
   padding: 100px 0;
   padding-left: 141px;
 }
+
 .link-logo-footer {
   display: inline-block;
   font-family: "Raleway", sans-serif;
