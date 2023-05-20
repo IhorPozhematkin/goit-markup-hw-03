@@ -278,7 +278,6 @@ img {
 
 .list-projects {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
@@ -299,4 +298,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+}
+.text-projects {
+  color: #434455;
 }
